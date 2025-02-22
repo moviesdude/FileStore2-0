@@ -59,7 +59,7 @@ HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏ�
 ABOUT_TXT = "<b><blockquote>◈ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Team_MDL>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Anime_Rips_Tamil>ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴄᴀʀᴛᴏᴏɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/chutti_TV_Tamil_HD>ᴄᴀʀᴛᴏᴏɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/AnimeRipsTamil_Admin_Bot>ꜰᴏᴜɴᴅᴇʀ</a>\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Team_MDL_Admin_Bot>ᴄʀᴇᴀᴛᴏʀ</a></blockquote></b>"
 
 
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>{first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>{first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n🥀 Pᴏᴡᴇʀᴇᴅ Bʏ ➩<a href=https://t.me/Anime_Rips_Tamil> ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a></blockquote></b>")
 try:
     ADMINS=[1103137195]
     for x in (os.environ.get("ADMINS", "1103137195").split()):
@@ -68,7 +68,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n🥀 Pᴏᴡᴇʀᴇᴅ Bʏ ➩<a href=https://t.me/Anime_Rips_Tamil> ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a></b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "")
