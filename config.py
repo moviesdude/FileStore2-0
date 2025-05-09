@@ -28,14 +28,14 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://devwilson:MDBots1976@mdbo
 DB_NAME = os.environ.get("DATABASE_NAME", "Anime-file")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "60"))
+TIME = int(os.environ.get("TIME", "300"))
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002226806894"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002631096629"))
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002268015162"))#put 0 to disable
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002128652187"))#put 0 to disable
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))#put 0 to disable
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -56,7 +56,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/Demoshorts")
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ <a href=https://t.me/Anime_Rips_Tamil>ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ</a>\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/AnimeRipsTamil_Admin_Bot>ᴅᴇᴠᴇʟᴏᴘᴇᴅ</a></blockquote></b>"
 
 
-ABOUT_TXT = "<b><blockquote>◈ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Team_MDL>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Anime_Rips_Tamil>ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴄᴀʀᴛᴏᴏɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/chutti_TV_Tamil_HD>ᴄᴀʀᴛᴏᴏɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/AnimeRipsTamil_Admin_Bot>ꜰᴏᴜɴᴅᴇʀ</a>\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Team_MDL_Admin_Bot>ᴄʀᴇᴀᴛᴏʀ</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Team_MDL>ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Anime_Rips_Tamil>ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ</a>\n◈ ᴄᴀʀᴛᴏᴏɴ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/chutti_TV_HD_Tamil>ᴄᴀʀᴛᴏᴏɴ ᴄʜᴀɴɴᴇʟ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/AnimeRipsTamil_Admin_Bot>ꜰᴏᴜɴᴅᴇʀ</a>\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/Team_MDL_Admin_Bot>ᴄʀᴇᴀᴛᴏʀ</a></blockquote></b>"
 
 
 START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>{first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n🥀 Pᴏᴡᴇʀᴇᴅ Bʏ ➩<a href=https://t.me/Anime_Rips_Tamil> ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a></blockquote></b>")
