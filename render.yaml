@@ -9,23 +9,31 @@ services:
     branch: master
     autoDeploy: false
     envVars:
-      - key: BOT_TOKEN
+      - key: TG_BOT_TOKEN
         sync: false
-      - key: API_ID
+      - key: APP_ID
         sync: false
       - key: API_HASH
         sync: false
-      - key: FORCE_SUB
+      - key: FORCE_SUB_CHANNEL1
         sync: false
-      - key: LOG_CHANNEL
+      - key: FORCE_SUB_CHANNEL2
         sync: false
-      - key: DB_NAME
+      - key: FORCE_SUB_CHANNEL3
         sync: false
-      - key: DB_URL
+      - key: FORCE_SUB_CHANNEL4
+        sync: false
+      - key: CHANNEL_ID
+        sync: false
+      - key: DATABASE_NAME
+        sync: false
+      - key: DATABASE_URL
         sync: false
       - key: START_PIC
         sync: false
-      - key: ADMIN
+      - key: OWNER_ID
         sync: false
-      - key: WEBHOOK
+      - key: OWNER
+        sync: false
+      - key: PORT
         sync: false
