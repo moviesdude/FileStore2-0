@@ -10,13 +10,13 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7834318381:AAGi_e0Cy8mOyQcFZxGBL04QSoOHoyNQy0E")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7484504803:AAHjquO9GINLakA1JckAKsqSiwLZoppGv18")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16229284"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "ebd1fead3cc15343bea10b5c164165ba")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002121817863"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002682425602"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "Thala_Dev")
 #OWNER ID
@@ -25,7 +25,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1103137195"))
 PORT = os.environ.get("PORT", "8080")
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://devwilson:MDBots1976@mdbots.iaigyrl.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Anime-file")
+DB_NAME = os.environ.get("DATABASE_NAME", "cartoon-file")
 
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "300"))
@@ -36,7 +36,7 @@ FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1002631096629"))
 #put 0 to disable
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002268015162"))#put 0 to disable
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002268015162"))#put 0 to disable
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))#put 0 to disable
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002612466966"))#put 0 to disable
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -68,7 +68,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n🥀 Pᴏᴡᴇʀᴇᴅ Bʏ ➩<a href=https://t.me/Anime_Rips_Tamil> ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴊᴏɪɴ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ʀᴇʟᴏᴀᴅ button ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛᴇᴅ ꜰɪʟᴇ.\n\n🥀 Pᴏᴡᴇʀᴇᴅ Bʏ ➩<a href=https://t.me/CartoonWorldsTamil> ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ</a></b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "")
